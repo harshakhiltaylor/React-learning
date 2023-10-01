@@ -1,11 +1,17 @@
 
 import Chai from "./new"
 
+
+
 function App() {
  
-
+  const username = "chai ur code";
+  
   return (
-  <Chai/>
+    <>
+    <h1> chai ur code  {username}</h1>
+    <Chai/>
+    </>
   )
 }
 
